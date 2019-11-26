@@ -1,0 +1,21 @@
+{
+    "name": "fidata/agile-mantis",
+    "description": "Enables the Scrum Framework to your Mantis-Installation",
+    "type": "mantisbt-plugin",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "gadiv GmbH",
+            "email": "agilemantis@gadiv.de"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            ".gitignore",
+            "/res",
+            "CHANGELOG.md",
+            ".publishrc.json",
+            "README.md"
+        ]
+    }
+}
