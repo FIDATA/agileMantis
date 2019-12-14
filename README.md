@@ -16,6 +16,6 @@ For further information visit the following webpages:
 
 ```
 mkdir build
-composer archive --format=zip --dir=build --file=agileMantis
-curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/agileMantis.zip;composer.version=2.2.2" -T build/agileMantis.zip
+composer archive --format=zip --dir=build --file=agileMantis-2.2.2
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/agileMantis-2.2.2.zip;composer.version=2.2.2" -T build/agileMantis-2.2.2.zip
 ```
